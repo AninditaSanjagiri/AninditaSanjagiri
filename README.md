@@ -64,7 +64,7 @@ I’m especially interested in **research-oriented environments** where correctn
 ## Let’s Connect
 
 - GitHub: you’re here already  
-- LinkedIn: *(add link)*  
+- LinkedIn: *www.linkedin.com/in/anindita-sanjagiri*  
 
 ---
 
