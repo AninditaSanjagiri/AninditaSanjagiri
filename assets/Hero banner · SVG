@@ -1,0 +1,93 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#1c2128"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- frame -->
+  <rect x="1" y="1" width="1198" height="398" rx="14" fill="#0D1117" stroke="#21262d" stroke-width="1.5"/>
+  <rect x="1" y="1" width="1198" height="398" rx="14" fill="url(#dots)"/>
+
+  <!-- top meta row -->
+  <text x="40" y="38" font-family="Fira Code, monospace" font-size="12" fill="#5b6270">$ profile.init()</text>
+  <circle cx="1155" cy="34" r="3.5" fill="#A78BFA"/>
+  <text x="1145" y="38" font-family="Fira Code, monospace" font-size="11" fill="#5b6270" text-anchor="end">online</text>
+
+  <line x1="40" y1="54" x2="1160" y2="54" stroke="#1c2128" stroke-width="1"/>
+
+  <!-- name block -->
+  <text x="40" y="150" font-family="Fira Code, monospace" font-size="15" fill="#6b7280" letter-spacing="1">hello_world, i'm</text>
+  <text x="40" y="215" font-family="Fira Code, monospace" font-weight="700" font-size="58" fill="#E6EDF3" letter-spacing="1">ANINDITA</text>
+  <text x="40" y="272" font-family="Fira Code, monospace" font-weight="700" font-size="58" fill="#E6EDF3" letter-spacing="1">SANJAGIRI<tspan fill="#A78BFA">.</tspan></text>
+
+  <rect x="41" y="292" width="360" height="2" fill="url(#fade)"/>
+  <text x="40" y="320" font-family="Fira Code, monospace" font-size="17" fill="#A78BFA" letter-spacing="2">AI / ML &#183; DEVELOPER &#183; RESEARCHER</text>
+  <text x="40" y="352" font-family="Fira Code, monospace" font-size="13" fill="#8b93a1">final-year CS (AI &amp; Analytics) undergrad, Pune India</text>
+
+  <!-- right side: abstract neural net wireframe -->
+  <text x="1160" y="34" font-family="Fira Code, monospace" font-size="10" fill="#4b5162" text-anchor="end">fig.01 &#8212; network.topology</text>
+
+  <circle cx="970" cy="210" r="165" fill="none" stroke="#A78BFA" stroke-opacity="0.10" stroke-width="1" stroke-dasharray="2 6"/>
+  <circle cx="970" cy="210" r="120" fill="none" stroke="#A78BFA" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- edges layer 1-2 -->
+  <g stroke="#A78BFA" stroke-opacity="0.22" stroke-width="1">
+    <line x1="800" y1="95" x2="965" y2="65"/>
+    <line x1="800" y1="95" x2="965" y2="140"/>
+    <line x1="800" y1="95" x2="965" y2="210"/>
+    <line x1="800" y1="170" x2="965" y2="65"/>
+    <line x1="800" y1="170" x2="965" y2="140"/>
+    <line x1="800" y1="170" x2="965" y2="210"/>
+    <line x1="800" y1="170" x2="965" y2="280"/>
+    <line x1="800" y1="245" x2="965" y2="140"/>
+    <line x1="800" y1="245" x2="965" y2="210"/>
+    <line x1="800" y1="245" x2="965" y2="280"/>
+    <line x1="800" y1="245" x2="965" y2="350"/>
+    <line x1="800" y1="320" x2="965" y2="210"/>
+    <line x1="800" y1="320" x2="965" y2="280"/>
+    <line x1="800" y1="320" x2="965" y2="350"/>
+  </g>
+  <!-- edges layer 2-3 -->
+  <g stroke="#A78BFA" stroke-opacity="0.22" stroke-width="1">
+    <line x1="965" y1="65" x2="1140" y2="140"/>
+    <line x1="965" y1="140" x2="1140" y2="140"/>
+    <line x1="965" y1="140" x2="1140" y2="220"/>
+    <line x1="965" y1="210" x2="1140" y2="140"/>
+    <line x1="965" y1="210" x2="1140" y2="220"/>
+    <line x1="965" y1="210" x2="1140" y2="300"/>
+    <line x1="965" y1="280" x2="1140" y2="220"/>
+    <line x1="965" y1="280" x2="1140" y2="300"/>
+    <line x1="965" y1="350" x2="1140" y2="300"/>
+  </g>
+
+  <!-- layer 1 nodes -->
+  <g fill="#0D1117" stroke="#A78BFA" stroke-width="1.5">
+    <circle cx="800" cy="95" r="5"/>
+    <circle cx="800" cy="170" r="5"/>
+    <circle cx="800" cy="245" r="5"/>
+    <circle cx="800" cy="320" r="5"/>
+  </g>
+  <!-- layer 2 nodes -->
+  <g fill="#0D1117" stroke="#A78BFA" stroke-width="1.5">
+    <circle cx="965" cy="65" r="5"/>
+    <circle cx="965" cy="140" r="5"/>
+    <circle cx="965" cy="210" r="6" fill="#A78BFA"/>
+    <circle cx="965" cy="280" r="5"/>
+    <circle cx="965" cy="350" r="5"/>
+  </g>
+  <!-- layer 3 nodes -->
+  <g fill="#0D1117" stroke="#A78BFA" stroke-width="1.5">
+    <circle cx="1140" cy="140" r="5"/>
+    <circle cx="1140" cy="220" r="5"/>
+    <circle cx="1140" cy="300" r="5"/>
+  </g>
+
+  <text x="800" y="375" font-family="Fira Code, monospace" font-size="10" fill="#4b5162" text-anchor="middle">in</text>
+  <text x="965" y="375" font-family="Fira Code, monospace" font-size="10" fill="#4b5162" text-anchor="middle">hidden</text>
+  <text x="1140" y="375" font-family="Fira Code, monospace" font-size="10" fill="#4b5162" text-anchor="middle">out</text>
+</svg>
