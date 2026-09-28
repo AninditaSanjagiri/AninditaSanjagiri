@@ -8,7 +8,7 @@
 
 <img src="assets/avatar.png" width="190" alt="Anindita's avatar"/>
 
-Just a frizzy-haired techie building cool things.
+
 
 
 
