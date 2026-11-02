@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Pixel Purple Cat Graphic (You can also upload this exact pixel cat to your assets folder as pixel-cat.png and use src="./assets/pixel-cat.png") -->
-  <img width="220" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Cat.png" alt="Pixel Cat" />
+  <img width="220" src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
   <br/><br/>
 
   <!-- Header Name -->
