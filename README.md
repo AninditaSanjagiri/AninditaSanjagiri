@@ -1,6 +1,6 @@
 <div align="center">
-  <!-- If you have a gif inside your assets folder, change this src to "./assets/your-file-name.gif" -->
-  <img width="240" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Sparkling%20Heart.png" alt="Header Animation" />
+  <!-- Animated Black Cat (See alternate options below if you want to swap!) -->
+  <img width="180" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Black%20Cat.png" alt="Animated Cat" />
   <br/>
 
   <a href="https://git.io/typing-svg">
@@ -19,7 +19,7 @@
 
 <br/>
 
-## 🌸 A Little About Me
+## ⚡ A Little About Me
 
 I am a **Computer Science Engineering (AI & Analytics)** student and **Full-Stack AI Developer** passionate about building intelligent, interpretable, and production-ready systems. From astronomical signal processing on NASA light-curve datasets to multimodal security models and autonomous multi-agent workflows, I love bridging deep research with clean, modern interfaces.
 
@@ -122,8 +122,8 @@ const Anindita = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AninditaSanjagiri&show_icons=true&theme=catppuccin_mocha&hide_border=true" alt="Anindita's GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AninditaSanjagiri&layout=compact&theme=catppuccin_mocha&hide_border=true" alt="Top Languages" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AninditaSanjagiri&theme=catppuccin_mocha" alt="GitHub Stats" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AninditaSanjagiri&theme=catppuccin_mocha" alt="Top Languages" />
 </div>
 
 <div align="center">
@@ -135,5 +135,5 @@ const Anindita = {
 ## 📈 Contributions
 
 <div align="center">
-  <img alt="AninditaSanjagiri Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=AninditaSanjagiri&theme=react-dark&hide_border=true&area=true" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AninditaSanjagiri&theme=catppuccin_mocha" alt="Contribution Activity" />
 </div>
